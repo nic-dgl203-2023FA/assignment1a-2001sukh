@@ -47,6 +47,9 @@ background: #F7FFF7;
     border-radius: 4px;
 }
 
+.Projects a:hover {
+    background: rgba(47, 48, 97, 80%);
+}
 
 /* Work experience 
 -----------------------------*/
