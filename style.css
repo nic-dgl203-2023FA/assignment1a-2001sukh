@@ -22,6 +22,7 @@ width: 300px;
 -----------------------------*/
 header {
     background:#2F3061;
+    color:#F7FFF7;
 }
 
 
@@ -48,4 +49,5 @@ background: #F7FFF7;
 -----------------------------*/
 footer{
     background:#343434;
+    color:#F7FFF7;
 }
