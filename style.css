@@ -39,6 +39,9 @@ header {
 .Projects {
 background: #F7FFF7;
 }
+.projects a {
+    color: #F7FFF7;
+}
 
 
 /* Work experience 
