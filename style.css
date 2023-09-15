@@ -20,7 +20,9 @@ width: 300px;
 
 /* Profile 
 -----------------------------*/
-
+header {
+    background:#2F3061;
+}
 
 
 /* Projects
