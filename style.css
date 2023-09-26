@@ -171,8 +171,11 @@ footer{
             line-height: 0.9;
             margin-bottom: 20px;
         }
-        h1 , h2 {
+        h2 {
             line-height: 1;
+        }
+        .contact-list a {
+            padding: 5px;
         }
     }
 
