@@ -62,7 +62,7 @@ h3{
     margin: 0;
  }
 
-.divider {
+.divider > section {
     border-bottom: 1px dashed #343434;
  padding: 25px 0;
 }
