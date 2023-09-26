@@ -162,7 +162,11 @@ footer{
         column-gap: 20px;
     }
     
-    @media screen and (min-width:749px)
+    @media screen and (min-width:749px){
+        h1{
+            font-size: 75px;
+        }
+    }
 
 
 
