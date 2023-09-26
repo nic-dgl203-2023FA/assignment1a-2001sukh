@@ -104,10 +104,6 @@ background: #F7FFF7;
 .project-item{
     overflow: hidden;
 }
-.project-item img{
-    float: left;
-    margin-right: 20px;
-}
 .project-item h3{
     margin-top: 0;
 }
@@ -117,12 +113,6 @@ background: #F7FFF7;
 .Work-experience {
     background:#A1C6D7;
 }
-.job-item{
-    display: grid;
-    grid-template-columns: 1fr 2fr;
-    column-gap: 20px;
-}
-
 
 /* Education 
 -----------------------------*/
@@ -160,5 +150,15 @@ footer{
 /* Responsive 
 -----------------------------*/
 @media screen and (min-width:750px){
+    .project-item img{
+        float: left;
+        margin-right: 20px;
+    }
+    
+    .job-item{
+        display: grid;
+        grid-template-columns: 1fr 2fr;
+        column-gap: 20px;
+    }
     
 }
