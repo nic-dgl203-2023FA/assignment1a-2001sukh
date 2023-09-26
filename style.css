@@ -101,8 +101,9 @@ background: #F7FFF7;
 .Work-experience {
     background:#A1C6D7;
 }
-.job-items{
+.job-item{
     display: grid;
+    grid-template-columns: 1fr 2fr;
 }
 
 
