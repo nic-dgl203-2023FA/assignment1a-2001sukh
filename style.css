@@ -132,7 +132,9 @@ background: #F7FFF7;
     background-position: top right;
     padding-bottom: 100px;
 }
-
+.education p{
+    width: 60%;
+}
 
 /* Contact Info 
 -----------------------------*/
