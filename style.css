@@ -8,6 +8,16 @@ https://coolors.co/f7fff7-343434-2f3061-ffe66d-a1c6d7
 #A1C6D7 - blue light
 */
 
+
+
+/* Nav bar 
+-----------------------------*/
+.navbar {
+    background-color: #000000;
+}
+
+
+
 /* Global styles 
 -----------------------------*/
 body{
@@ -51,7 +61,7 @@ h1, h2 {
     width: 85%;
     margin: 0 auto;
     padding: 60px 0;
-        
+
 }
 h3{
     margin-bottom: 0;
