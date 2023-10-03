@@ -248,6 +248,11 @@ footer{
   .light {
     background: rgba(255,255,255,0.5);
   }
+
+  .overlay:target {
+    visibility: visible;
+    opacity: 1;
+  }
   
 
 
