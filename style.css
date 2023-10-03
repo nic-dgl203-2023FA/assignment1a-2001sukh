@@ -213,6 +213,15 @@ footer{
     text-align: center;
   }
 
+  
+.button {
+    background:#93d277;
+    color: #0a0a0a;
+    padding: 16px 24px;
+    text-decoration: none;
+    display: inline-block;
+  }
+
 /* Responsive 
 -----------------------------*/
 @media screen and (min-width:750px){
