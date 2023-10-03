@@ -16,8 +16,12 @@ https://coolors.co/f7fff7-343434-2f3061-ffe66d-a1c6d7
     background-color: #000000;
     overflow: hidden;
     position: sticky;
+    top: 0;
 }
 
+.navbar ul {
+    list-style-type: none;
+}
 
 
 /* Global styles 
