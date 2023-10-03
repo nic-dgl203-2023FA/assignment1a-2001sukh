@@ -32,7 +32,8 @@ https://coolors.co/f7fff7-343434-2f3061-ffe66d-a1c6d7
     color: #fff;
     text-align: center;
     padding: 14px 16px;
-
+    text-decoration: none;
+    transition: background-color 0.3s;
 }
 
 /* Global styles 
