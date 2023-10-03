@@ -108,8 +108,9 @@ h3{
 -----------------------------*/
 header {
     background:#000000;
-    color:#F7FFF7;
+    color: #add19d;
 }
+
 
 
 /* Projects
@@ -174,6 +175,7 @@ footer{
     padding: 15px;
     display: inline-block;
 }
+
 
 
 /* Responsive 
