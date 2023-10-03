@@ -207,6 +207,11 @@ footer{
     margin-bottom: 16px;
   }
   
+  .wrapper {
+    margin: 0 auto;
+    max-width: 600px;
+    text-align: center;
+  }
 
 /* Responsive 
 -----------------------------*/
