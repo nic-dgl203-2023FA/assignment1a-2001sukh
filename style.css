@@ -122,14 +122,14 @@ header p{
 -----------------------------*/
 .Projects {
 background: #c9ccc9;
-
 }
+
 .Projects a {
     color: #add19d;
 }
 
 .Projects .btn {
-    color: #F7FFF7; 
+    color: #090a09; 
     background: #93d277;
     text-decoration: none;
     padding: 8px;
@@ -222,4 +222,9 @@ footer{
 
 
 
+}
+@media screen and (max-width:900px){
+    .navbar a {
+        font-size: 12px;
+    }
 }
