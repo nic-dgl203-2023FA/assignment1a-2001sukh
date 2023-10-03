@@ -135,7 +135,7 @@ background: #F7FFF7;
 }
 
 .Projects .btn:hover {
-    background: rgba(47, 48, 97, 80%);
+    background: rgba(168, 183, 159, 0.8);
 }
 .project-item{
     overflow: hidden;
