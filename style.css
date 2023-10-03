@@ -26,6 +26,10 @@ https://coolors.co/f7fff7-343434-2f3061-ffe66d-a1c6d7
     display: flex;
 }
 
+.navbar li {
+    margin: 0;
+}
+
 
 /* Global styles 
 -----------------------------*/
