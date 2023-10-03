@@ -260,6 +260,20 @@ footer{
     height: 100%;
     cursor: default;
   }
+
+  .close {
+    position: absolute;
+    width: 32px;
+    height: 32px;
+    top: 20px;
+    right: 20px;
+    opacity: 0.8;
+    transition: all 200ms;
+    font-size: 32px;
+    text-decoration: none;
+    color: #222;
+  }
+  
   
 
 
