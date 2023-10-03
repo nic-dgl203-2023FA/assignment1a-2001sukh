@@ -183,6 +183,16 @@ footer{
     display: inline-block;
 }
 
+
+/* Modal
+-----------------------------*/
+.wrapper {
+    margin: 0;
+    padding: 0;
+  }
+
+
+
 /* Responsive 
 -----------------------------*/
 @media screen and (min-width:750px){
