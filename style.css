@@ -1,7 +1,7 @@
 /*
 COLOR PALETTE
 https://coolors.co/fec0aa-ed5d31-add19d-000000-9984ba
-# FECOAA = Melon
+# FEC0AA = Melon
 # ED5D31 = Flame
 # ADD19D = Celadon
 # 000000 = Black
@@ -29,7 +29,7 @@ https://coolors.co/fec0aa-ed5d31-add19d-000000-9984ba
 
 .navbar a {
     display: block;
-    color: #fff;
+    color: #ED5D31;
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
