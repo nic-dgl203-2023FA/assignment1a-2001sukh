@@ -36,6 +36,10 @@ https://coolors.co/f7fff7-343434-2f3061-ffe66d-a1c6d7
     transition: background-color 0.3s;
 }
 
+.navbar a:hover {
+    background-color: #add19d;
+}
+
 /* Global styles 
 -----------------------------*/
 body{
