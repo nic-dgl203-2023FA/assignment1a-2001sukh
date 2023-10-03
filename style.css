@@ -198,7 +198,14 @@ footer{
   }
   
   
-
+  h1 {
+    text-align: center;
+    margin: 16px 0;
+  }
+  
+  h2 {
+    margin-bottom: 16px;
+  }
   
 
 /* Responsive 
