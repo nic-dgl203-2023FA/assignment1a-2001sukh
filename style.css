@@ -156,11 +156,12 @@ background: #c9ccc9;
 /* Education 
 -----------------------------*/
 .education{
-    background-image : url(joanna-kosinska-unsplash.jpg);
     background-size: cover;
     background-position: top right;
     padding-bottom: 100px;
 }
+
+
 .education p{
     width: 60%;
 }
@@ -181,8 +182,6 @@ footer{
     padding: 15px;
     display: inline-block;
 }
-
-
 
 /* Responsive 
 -----------------------------*/
