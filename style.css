@@ -322,6 +322,9 @@ footer{
 
 
 .motionnavbar {
-    background-color: #000000;
+    background-color: #000000;  
 }
 
+.motionnavbar ul {
+    display: flex;
+}
