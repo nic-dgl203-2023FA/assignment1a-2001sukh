@@ -339,5 +339,7 @@ footer{
     display: block; 
     color: #ED5D31; 
     padding: 14px 16px;
+    text-decoration: none;
+    transition: background-color 0.3s;
    
 }
