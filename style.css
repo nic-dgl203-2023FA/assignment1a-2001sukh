@@ -384,4 +384,5 @@ footer{
 .transition-button:hover {
     background-color: #484949;
     color: #fafaf8;
+    transform: scale(1.3);
 }
