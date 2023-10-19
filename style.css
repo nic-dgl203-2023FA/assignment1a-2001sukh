@@ -359,6 +359,7 @@ footer{
     background-color: #f0f0f0;
     padding: 20px;
     text-align: center;
+    
 }
 
 /* Media query for small screens  */
@@ -415,3 +416,6 @@ footer{
         font-size: 20px; 
     }
 }
+
+
+
