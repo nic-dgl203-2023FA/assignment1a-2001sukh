@@ -401,4 +401,5 @@ footer{
 
 .animated-word .word {
     font-size: 12px; 
+    animation: animateWord 3s linear infinite;
 }
