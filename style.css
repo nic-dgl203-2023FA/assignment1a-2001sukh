@@ -341,5 +341,6 @@ footer{
     padding: 14px 16px;
     text-decoration: none;
     transition: background-color 0.3s;
-   
+    font-weight: bold;
+    font-size: 23px;
 }
