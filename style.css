@@ -411,5 +411,7 @@ footer{
     50% {
         font-size: 15px; 
     }
-  
+    100% {
+        font-size: 20px; 
+    }
 }
