@@ -346,3 +346,7 @@ footer{
 }
 
 
+/* Add this CSS to create the grid */
+.grid-container {
+    display: grid;
+}
