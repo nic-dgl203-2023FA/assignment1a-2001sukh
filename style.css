@@ -395,5 +395,6 @@ footer{
     position: relative;
     overflow: hidden;
     align-items: center;
-
+    color:  #ED5D31;
+    font-weight: bold;
 }
