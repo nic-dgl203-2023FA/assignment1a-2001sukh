@@ -347,10 +347,15 @@ footer{
 
 
 /* Add this CSS to create the grid */
+
 .grid-container {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr; 
     grid-gap: 10px;
     margin: 0 auto; 
     width: 80%; 
+}
+
+.grid-item {
+    background-color: #f0f0f0;
 }
