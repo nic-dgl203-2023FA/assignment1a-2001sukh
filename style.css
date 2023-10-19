@@ -398,3 +398,7 @@ footer{
     color:  #ED5D31;
     font-weight: bold;
 }
+
+.animated-word .word {
+    font-size: 12px; 
+}
