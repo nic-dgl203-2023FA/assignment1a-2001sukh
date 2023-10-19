@@ -345,8 +345,7 @@ footer{
     font-size: 23px;
 }
 
-
-/* Add this CSS to create the grid */
+/* Add this CSS to create the grid (Took reference  for some small screen grid container from  W3 school and google )*/
 
 .grid-container {
     display: grid;
@@ -369,3 +368,5 @@ footer{
         grid-template-rows: repeat(6, 1fr); 
     }
 }
+
+
