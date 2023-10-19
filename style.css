@@ -376,4 +376,5 @@ footer{
 .transition-button {
     background-color: #000000;
     color: #ED5D31; 
+    border: none;
 }
