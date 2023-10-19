@@ -379,3 +379,8 @@ footer{
     border: none;
     padding: 10px 20px;
 }
+
+
+.transition-button:hover {
+    background-color: #484949;
+}
