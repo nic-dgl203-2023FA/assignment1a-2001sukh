@@ -408,4 +408,8 @@ footer{
     0% {
         font-size: 10px;
     }
+    50% {
+        font-size: 15px; 
+    }
+  
 }
