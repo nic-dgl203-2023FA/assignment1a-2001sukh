@@ -323,6 +323,8 @@ footer{
 
 .motionnavbar {
     background-color: #000000;  
+    overflow: hidden;
+   
 }
 
 .motionnavbar ul {
