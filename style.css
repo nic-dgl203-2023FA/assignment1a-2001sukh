@@ -394,5 +394,6 @@ footer{
 .animated-word {
     position: relative;
     overflow: hidden;
-    
+    align-items: center;
+
 }
