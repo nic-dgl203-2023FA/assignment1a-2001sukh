@@ -489,7 +489,7 @@ footer{
     display: inline-block;
     position: relative;
     animation: flip 2s infinite;
- 
+    transform-origin: center;
 }
 
 
