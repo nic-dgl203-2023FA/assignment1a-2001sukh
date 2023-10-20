@@ -3,16 +3,30 @@
   <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Sukhdeep Singh</title>
+    <title>Sukhdeep Singh</title>  
     <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Caveat:wght@400;600&family=Montserrat&display=swap" rel="stylesheet">    <link rel ="stylesheet" href="style.css">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Outfit:wght@200&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Satisfy&display=swap" rel="stylesheet">
+
+    <link rel ="stylesheet" href="style.css">
   </head>
   <body>
     <main>
-      <!-- ***********************  ABOUT / PROFILE  *********************** -->
+
+       <!-- ***********************  Nav bar  *********************** -->
+       <div class="navbar">
+        <ul>
+          <li><a href="#about">About</a></li>   
+          <li><a href="#projects">Projects</a> </li>
+          <li><a href="#work">Work-experience</a> </li>
+          <li><a href="#education">Education</a> </li>
+          <li><a href="#contact">Contact</a> </li>
+      </ul>
+       </div>
+     <!-- ***********************  ABOUT / PROFILE  *********************** -->
       <header>
-        <div class="content-wrap">
+        <div class="content-wrap" id="about">
         <h1>Sukhdeep Singh</h1>
         <h2>Graphic Designer</h2>
 
@@ -21,38 +35,57 @@
       </header>
 
       <!-- ********************  PROJECTS / PORTFOLIO  ********************* -->
-      <section class="Projects">
+      <section class="Projects" id="projects">
         <div class="content-wrap divider">
         <h2>Featured Projects</h2>
 
         <!-- Copy the whole <section> block to add more projects. -->
         <section class="project-item">
-          <img src="placeholder images/thumbnail-2.jpg" alt="description of image">
-          <h3>Project one </h3> 
-          <p>This is project one and following button shows its case study and details.</p>
-          <a class="btn" href="#" target="_blank">View project / case study</a>
+          <img src="Images/3596159.jpg" alt="description of image">
+          <h3>Graphic designs-poster</h3> 
+          <p>This project was part of my Communication Design Diploma program at North Island College, and it has been successfully completed.This is a poster for a graphic design project I worked on. I designed one poster with a pink background, incorporated black text onto it, and included a background image of a penguin along with various logos.</p>
+          <a class="btn" href="https://projects.invisionapp.com/d/main#/console/22135874/470335570/preview" target="_blank">View project / case study</a>
         </section>
 
         <section class="project-item">
-          <img src="placeholder images/thumbnail-1.jpg" alt="description of image">
-          <h3>Project Two</h3>
-          <p>This is project Two and following button shows its case study and details</p>
-          <a class="btn" href="#" target="_blank">View project / case study</a>
+          <img src="Images/man-thinking-web-program-codes_24911-63464.jpg" alt="description of image">
+          <h3>HTML+CSS final project</h3>
+          <p> I successfully completed a project where I redesigned the website for Nichole Cahoon, a Chartered Accountant. I revamped approximately 5-6 webpages of the website, ensuring they were responsive to different devices, and I made recommended edits to enhance the overall aesthetics and functionality of the site</p>
+          <a class="btn" href="https://github.com/nic-dgl103-f22/assignment-g-cvs1-2001sukh" target="_blank">View project / case study</a>
         </section>
 
         <section class="project-item">
-          <img src="placeholder images/thumbnail-3.jpg" alt="description of image">
-          <h3>Project Three</h3>
-          <p>This is project Three and following button shows its case study and details</p>
-          <a class="btn" href="#" target="_blank">View project / case study</a>
+          <img src="Images/good-girl (1) (1).jpg" alt="description of image">
+          <h3>wordpress project</h3>
+          <p> In my WordPress website project, I created a visually engaging and informative resource dedicated to dog safety. Through skillful use of colors, typography, and captivating imagery, I ensured that visitors would find the content engaging and accessible. The website was well-structured with tags and categories for easy navigation.</p>
+          <a class="btn" href="https://ssingh.imgd.ca/dgl223.ssingh.imgd.ca/assignment1/" target="_blank">View project / case study</a>
         </section>
         <!-- End of Project block. -->
+       <!-- Modal  -->
+       <section class="wrapper">
+         <a href="#modal" class="button">Future projects</a>
+       </section>
+       <section id="modal" class="overlay light">
+           <a class="cancel" href="#"></a>
+           <aside class="modal">
+             <a class="close" href="#">&times;</a>
+             <h2>New projects are comming soon</h2>
+             <div class="content">
+               <p>Stay tuned for my new projects. be happy </p>
+             </div>
+           </aside>
+       </section>
+       </section>
+
+
+       <!-- End of Modal -->
+        
       </div>
       </section>
 
 
       <!-- ***********************  WORK EXPERIENCE  *********************** -->
-      <section class="Work-experience">
+      <section class="Work-experience" id="work">
         <div class="content-wrap item-details divider">
         <h2>Work Experience</h2>
         <p>I worked as a coordinator + instructor of english in india. I used teach english classes and i manage whole institute over there in india </p>
@@ -98,7 +131,7 @@
       </section>
 
       <!-- ******************  EDUCATION & CERTIFICATIONS ****************** -->
-      <section class="education">
+      <section class="education" id="education">
         <div class="content-wrap item-details">
         <h2>Education</h2>
 
@@ -114,8 +147,8 @@
 
       <!-- *****************  CONTACT INFO / SOCIAL MEDIA  ***************** -->
       <footer>
-        <div class="content-wrap">
-        <h2>Let's Keep in Touch!</h2>
+        <div class="content-wrap" id="contact">
+        <h2>Let's make an effort to stay in touch!</h2>
 
         <!-- Social media and contact links. Add or remove any networks. -->
         <ul class="contact-list">
@@ -126,6 +159,7 @@
           <li><a href="#" target="_blank">Facebook</a></li>
         </ul>
         </div>
+        </section>
       </footer>
     </main>
   </body>
