@@ -427,3 +427,9 @@ footer{
 .svg-img{
     width: 100px;
     }
+
+.svg-img:hover {
+ animation-name: move;
+     
+}
+    
