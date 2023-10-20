@@ -496,4 +496,8 @@ footer{
     0% {
         transform: rotateX(0deg);
     }
+    50% {
+        transform: rotateX(180deg);
+    }
+ 
 }
