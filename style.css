@@ -464,5 +464,8 @@ footer{
         0%, 100% {
             border-color: transparent;
         }
+        50% {
+            border-color: #000000;
+        }
       }
 
