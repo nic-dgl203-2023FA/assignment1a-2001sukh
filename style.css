@@ -504,3 +504,10 @@ footer{
         transform: rotateX(0deg);
     }
 }
+
+
+/* Animated Box */
+.animated-box {
+    width: 100px;
+    height: 100px; 
+}
