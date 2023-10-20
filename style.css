@@ -430,6 +430,7 @@ footer{
 
 .svg-img:hover {
  animation-name: move;
-     
-}
+ animation-duration: 2.5s;
+
+    }
     
