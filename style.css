@@ -490,6 +490,7 @@ footer{
     position: relative;
     animation: flip 2s infinite;
     transform-origin: center;
+    color: #ED5D31 ;
 }
 
 @keyframes flip {
