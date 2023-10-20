@@ -469,3 +469,9 @@ footer{
         }
       }
 
+       /* Typing animation */
+       @keyframes typing {
+        0% {
+            width: 0;
+        }
+      }
