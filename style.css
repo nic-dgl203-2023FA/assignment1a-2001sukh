@@ -514,3 +514,8 @@ footer{
     animation: bounce 2s cubic-bezier(0.68, -0.55, 0.27, 1.55) infinite;
 }
 
+@keyframes bounce {
+    0%, 100% {
+        transform: translateY(0);
+    }
+}
