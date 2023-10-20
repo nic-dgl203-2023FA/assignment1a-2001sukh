@@ -454,4 +454,5 @@ footer{
 
  .blinking-text {
     display: inline-block;
+    overflow: hidden;
 }
