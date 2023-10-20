@@ -458,3 +458,11 @@ footer{
                 blink 0.2s steps(1) infinite;
     }
 
+
+
+    @keyframes blink {
+        0%, 100% {
+            border-color: transparent;
+        }
+      }
+
