@@ -433,6 +433,6 @@ footer{
  animation-duration: 2.5s;
  animation-iteration-count: infinite;
  animation-fill-mode: forwards;
-
+ animation-direction: alternate;
     }
     
