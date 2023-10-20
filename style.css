@@ -450,4 +450,8 @@ footer{
     
 
    
-    
+ /* Blinking text grid 4 */
+
+ .blinking-text {
+    display: inline-block;
+}
