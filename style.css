@@ -549,3 +549,7 @@ footer{
 .animationnavbar li.right {
     margin-left: 40px; 
 }
+
+.animationnavbar a {
+    display: block; 
+}
