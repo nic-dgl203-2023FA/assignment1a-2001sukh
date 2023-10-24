@@ -564,3 +564,19 @@ footer{
 .animationnavbar a:hover {
     background-color: #add19d;
 }
+
+
+/* Add Animation to Rain  */
+
+
+@keyframes rain-animation {
+    0% {
+      transform: translateY(0);
+      opacity: 1;
+    }
+  }
+  
+
+  
+ 
+ 
