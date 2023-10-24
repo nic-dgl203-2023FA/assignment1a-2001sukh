@@ -608,5 +608,7 @@ footer{
     50% {
       transform: translateX(30px);
     }
-   
+    100% {
+      transform: translateX(0);
+    }
   }
