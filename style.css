@@ -559,3 +559,8 @@ footer{
     font-weight: bold;
     font-size: 22px;
 }
+
+
+.animationnavbar a:hover {
+    background-color: #add19d;
+}
