@@ -546,3 +546,6 @@ footer{
     margin-right: auto;
 }
 
+.animationnavbar li.right {
+    margin-left: 40px; 
+}
