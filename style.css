@@ -584,6 +584,14 @@ footer{
     animation: rain-animation 1s linear infinite;
   }
 
+
+    
+ /* Add animation for caterpillar  */
+
+@keyframes moveCaterpillar {
+    0% { transform: translateX(0); }
+  }
+
   
  
  
