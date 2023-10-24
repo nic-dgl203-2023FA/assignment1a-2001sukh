@@ -594,6 +594,9 @@ footer{
     100% { transform: translateX(0); }
   }
 
+  #Caterpillar {
+    animation: moveCaterpillar 6s ease-in-out infinite;
+  }
   
  
  
