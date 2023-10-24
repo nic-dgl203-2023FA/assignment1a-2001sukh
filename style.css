@@ -646,5 +646,8 @@ footer{
     }
   }
   
-   
+   #Tail {
+    transform-origin: 45% 100%;
+    animation: tail-animation 2s linear infinite;
+  }
   
