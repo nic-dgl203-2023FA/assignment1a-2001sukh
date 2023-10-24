@@ -540,3 +540,9 @@ footer{
     margin: 0;
     padding: 0;
 }
+
+
+.animationnavbar li.left {
+    margin-right: auto;
+}
+
