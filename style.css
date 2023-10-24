@@ -629,3 +629,16 @@ footer{
 #Flowers ellipse.st3 {
     animation: colorChangeFlowers 6s linear infinite;
 }
+
+
+  /* Apply animations to tail of  cat */
+
+
+@keyframes tail-animation {
+    0% {
+      transform: rotate(0deg);
+    }
+  }
+  
+   
+  
