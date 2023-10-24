@@ -626,3 +626,6 @@ footer{
     50% { fill: #FF7BAC; }
 }
 
+#Flowers ellipse.st3 {
+    animation: colorChangeFlowers 6s linear infinite;
+}
