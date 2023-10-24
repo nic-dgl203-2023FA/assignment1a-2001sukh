@@ -617,3 +617,12 @@ footer{
     animation: moveCloud 3s ease-in-out infinite;
   }
  
+
+  /* Apply color change animation to the flower leaves */
+
+  
+  @keyframes colorChangeFlowers {
+    0%, 100% { fill: #7AC943; }
+    50% { fill: #FF7BAC; }
+}
+
