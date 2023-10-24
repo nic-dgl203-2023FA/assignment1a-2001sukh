@@ -532,3 +532,7 @@ footer{
     overflow: hidden;
 }
 
+.animationnavbar ul {
+    list-style: none;
+    display: flex;
+}
