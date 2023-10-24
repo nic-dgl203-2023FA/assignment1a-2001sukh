@@ -612,3 +612,8 @@ footer{
       transform: translateX(0);
     }
   }
+
+  #clouds {
+    animation: moveCloud 3s ease-in-out infinite;
+  }
+ 
