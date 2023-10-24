@@ -522,3 +522,13 @@ footer{
         transform: translateY(-50px);   
     }
 }
+
+                                               /* CSS FOR ANIMATION PAGE  */
+           
+/* Nav bar of animaion page  */
+.animationnavbar {
+    background-color: #000000;  
+    color: #fff;
+    overflow: hidden;
+}
+
