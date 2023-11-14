@@ -2,3 +2,11 @@ $header-background-color: #000000;
 $header-text-color: #add19d;
 $header-paragraph-text-color: #ffffff;
 
+header {
+    background: $header-background-color;
+    color: $header-text-color;
+
+    p {
+        color: $header-paragraph-text-color;
+    }
+}

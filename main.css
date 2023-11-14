@@ -27,6 +27,14 @@
   background-color: #add19d;
 }
 
+header {
+  background: #000000;
+  color: #add19d;
+}
+header p {
+  color: #ffffff;
+}
+
 /* Global styles 
 -----------------------------*/
 body {
