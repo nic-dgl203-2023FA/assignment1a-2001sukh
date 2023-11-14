@@ -65,3 +65,13 @@ h3 {
     }
 }
 
+.divider {
+    > section {
+        border-bottom: 1px dashed $base-color;
+        padding: 25px 0;
+
+        &:last-of-type {
+            border-bottom: none;
+        }
+    }
+}
