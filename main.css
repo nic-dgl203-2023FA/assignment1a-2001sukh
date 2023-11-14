@@ -378,6 +378,12 @@ ul li a {
   font-size: 23px;
 }
 
+/* Reset styles */
+* {
+  margin: 0;
+  padding: 0;
+}
+
 /* Global styles 
 -----------------------------*/
 body {

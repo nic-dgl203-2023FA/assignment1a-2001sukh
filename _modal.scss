@@ -3,3 +3,9 @@ $text-color: #222;
 $accent-color: #93d277;
 $overlay-color: rgba(0, 0, 0, 0.7);
 $transition-time: 200ms;
+
+/* Reset styles */
+* {
+  margin: 0;
+  padding: 0;
+}
