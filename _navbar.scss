@@ -16,5 +16,18 @@ $link-hover-color: #add19d;
     padding: 0;
     display: flex;
     justify-content: center;
+
+    li {
+      a {
+        display: block;
+        color: $link-color;
+        text-align: center;
+        padding: 14px 16px;
+        text-decoration: none;
+        transition: background-color 0.3s;
+        font-weight: bold;
+        font-size: 25px;
+      }
+    }
   }
 }

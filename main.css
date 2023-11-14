@@ -13,6 +13,16 @@
   display: flex;
   justify-content: center;
 }
+.navbar ul li a {
+  display: block;
+  color: #ED5D31;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  transition: background-color 0.3s;
+  font-weight: bold;
+  font-size: 25px;
+}
 
 /* Global styles 
 -----------------------------*/
