@@ -9,6 +9,17 @@ footer {
     align-items: center;
     justify-content: center;
 
-   
+    .contact-list {
+        list-style: none; 
+        padding: 0;
+        text-align: center;
+     
+        align-items: center;
+
+        a {
+            padding: 15px;
+            display: inline-block;
+        }
+    }
 }
 
