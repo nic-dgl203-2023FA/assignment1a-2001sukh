@@ -35,6 +35,13 @@ header p {
   color: #ffffff;
 }
 
+.projects {
+  background: #c9ccc9;
+}
+.projects a {
+  color: #add19d;
+}
+
 /* Global styles 
 -----------------------------*/
 body {

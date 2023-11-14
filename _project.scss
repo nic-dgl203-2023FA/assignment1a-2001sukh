@@ -9,3 +9,11 @@ $projectsBtnHoverBackground: rgba(159, 192, 141, 0.8);
 $projectsBtnPadding: 8px;
 $projectsBtnBorderRadius: 4px;
 
+.projects {
+    background: $projectsBackgroundColor;
+  
+    a {
+        color: $projectsLinkColor;
+    }
+  
+}
