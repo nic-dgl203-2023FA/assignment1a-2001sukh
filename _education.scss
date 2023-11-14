@@ -5,6 +5,17 @@ $education-bg-position: top right;
 $education-padding-bottom: 100px;
 $education-description-width: 60%;
 
+.education {
+  background-size: $education-bg-size;
+  background-position: $education-bg-position;
+  padding-bottom: $education-padding-bottom;
+
+
+    &__description {
+      width: $education-description-width;
+    }
+  
+}
 
 
 

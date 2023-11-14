@@ -121,6 +121,15 @@ header p {
 }
 
 /* ******************  EDUCATION & CERTIFICATIONS ****************** */
+.education {
+  background-size: cover;
+  background-position: top right;
+  padding-bottom: 100px;
+}
+.education__description {
+  width: 60%;
+}
+
 /* Global styles 
 -----------------------------*/
 body {
