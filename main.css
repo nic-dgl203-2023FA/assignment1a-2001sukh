@@ -52,6 +52,18 @@ header p {
 .projects .btn:hover {
   background: rgba(159, 192, 141, 0.8);
 }
+.projects__item {
+  overflow: hidden;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+.projects__item h3 {
+  margin-top: 0;
+}
+.projects__item img {
+  margin-right: 16px;
+}
 
 /* Global styles 
 -----------------------------*/

@@ -28,4 +28,19 @@ $projectsBtnBorderRadius: 4px;
             background: $projectsBtnHoverBackground;
         }
     }
+  
+    &__item {
+        overflow: hidden;
+        display: flex;
+        justify-content: flex-end;
+        align-items: center;
+  
+        h3 {
+            margin-top: 0;
+        }
+  
+        img {
+            margin-right: 16px; 
+        }
+    }
 }
