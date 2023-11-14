@@ -9,4 +9,12 @@ $link-hover-color: #add19d;
   overflow: hidden;
   position: sticky;
   top: 0;
+
+  ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+  }
 }

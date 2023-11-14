@@ -6,6 +6,13 @@
   position: sticky;
   top: 0;
 }
+.navbar ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+}
 
 /* Global styles 
 -----------------------------*/
