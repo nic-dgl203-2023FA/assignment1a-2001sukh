@@ -74,6 +74,12 @@ header p {
   color: #161414;
   margin-bottom: 15px;
 }
+.work-experience__description {
+  font-size: 16px;
+  line-height: 1.5;
+  color: #221e1e;
+  margin-bottom: 20px;
+}
 
 /* Global styles 
 -----------------------------*/

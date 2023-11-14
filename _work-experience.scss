@@ -24,4 +24,12 @@ $date-font-size: 14px;
     color: $text-color;
     margin-bottom: 15px;
   }
+
+  &__description {
+    font-size: $description-font-size;
+    line-height: 1.5;
+    color: $description-color;
+    margin-bottom: 20px;
+  }
+
 }
