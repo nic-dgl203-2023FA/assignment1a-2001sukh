@@ -6,6 +6,7 @@ $company-color: #241c1c;
 $date-color: #232121;
 $summary-color: #555;
 $border-color: #050202;
+$mobile-breakpoint: 768px;
 
 // Font sizes
 $title-font-size: 24px;
@@ -13,7 +14,7 @@ $title-font-weight: bold;
 $description-font-size: 16px;
 $details-font-size: 18px;
 $summary-font-size: 16px;
-$date-font-size: 14px;
+$date-font-size: 14px;  
 
 .work-experience {
   background: $background-color;
@@ -78,6 +79,22 @@ $date-font-size: 14px;
           margin-bottom: 5px;
         }
       }
+    }
+  }
+}
+
+
+ // Mobile styles
+ @media screen and (max-width: $mobile-breakpoint) {
+  .job-item {
+    padding: 10px;
+
+    &__details {
+      margin-bottom: 5px;
+    }
+
+    &__summary {
+      font-size: $summary-font-size - 2; 
     }
   }
 }

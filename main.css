@@ -120,6 +120,17 @@ header p {
   margin-bottom: 5px;
 }
 
+@media screen and (max-width: 768px) {
+  .job-item {
+    padding: 10px;
+  }
+  .job-item__details {
+    margin-bottom: 5px;
+  }
+  .job-item__summary {
+    font-size: 14px;
+  }
+}
 /* ******************  EDUCATION & CERTIFICATIONS ****************** */
 .education {
   background-size: cover;
