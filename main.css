@@ -84,6 +84,22 @@ header p {
   border-bottom: 1px solid #050202;
   padding: 20px;
 }
+.work-experience .job-item__details {
+  margin-bottom: 10px;
+}
+.work-experience .job-item__details__title {
+  font-size: 18px;
+  font-weight: bold;
+  color: #161414;
+}
+.work-experience .job-item__details__company {
+  font-size: 18px;
+  color: #241c1c;
+}
+.work-experience .job-item__details__date {
+  font-size: 14px;
+  color: #232121;
+}
 
 /* Global styles 
 -----------------------------*/

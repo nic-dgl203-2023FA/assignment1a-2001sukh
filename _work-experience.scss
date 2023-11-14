@@ -36,6 +36,26 @@ $date-font-size: 14px;
     border-bottom: 1px solid $border-color;
     padding: 20px;
 
-   
+    &__details {
+      margin-bottom: 10px;
+
+      &__title {
+        font-size: $details-font-size;
+        font-weight: $title-font-weight;
+        color: $text-color;
+      }
+
+      &__company {
+        font-size: $details-font-size;
+        color: $company-color;
+      }
+
+      &__date {
+        font-size: $date-font-size;
+        color: $date-color;
+      }
+    }
+
+
   }
 }
