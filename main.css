@@ -286,6 +286,29 @@ ul li a {
   }
 }
 
+/* flip-word */
+.flip-word {
+  text-align: center;
+  font-weight: bold;
+  font-size: 24px;
+  display: inline-block;
+  position: relative;
+  animation: flip 2s infinite;
+  transform-origin: center;
+  color: var(--main-text-color);
+}
+@keyframes flip {
+  0% {
+    transform: rotateX(0deg);
+  }
+  50% {
+    transform: rotateX(180deg);
+  }
+  100% {
+    transform: rotateX(0deg);
+  }
+}
+
 /* Variables */
 /* motion-navbar */
 .motion-navbar {
