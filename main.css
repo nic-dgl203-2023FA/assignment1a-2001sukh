@@ -184,6 +184,15 @@ ul li a {
   margin: 0 auto;
   width: 80%;
 }
+.grid-container .grid-item {
+  background-color: var(--main-bg-color);
+  padding: 20px;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 300px;
+}
 
 /* Variables */
 /* motion-navbar */
