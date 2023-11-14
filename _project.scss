@@ -16,4 +16,16 @@ $projectsBtnBorderRadius: 4px;
         color: $projectsLinkColor;
     }
   
+    .btn {
+        color: $projectsBtnColor;
+        background: $projectsBtnBackground;
+        text-decoration: none;
+        padding: $projectsBtnPadding;
+        border-radius: $projectsBtnBorderRadius;
+        display: inline-block;
+  
+        &:hover {
+            background: $projectsBtnHoverBackground;
+        }
+    }
 }
