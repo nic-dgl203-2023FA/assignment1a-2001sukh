@@ -7,3 +7,10 @@ $navbar-item-font-weight: bold;
 $navbar-item-font-size: 23px;
 $navbar-transition-duration: 0.3s;
 
+/* motion-navbar */
+.motion-navbar {
+    background-color: $navbar-background-color;
+    overflow: hidden;
+    height: $navbar-height;
+
+}

@@ -164,6 +164,13 @@ ul li a {
 }
 
 /* Variables */
+/* motion-navbar */
+.motion-navbar {
+  background-color: #000000;
+  overflow: hidden;
+  height: 50px;
+}
+
 /* Global styles 
 -----------------------------*/
 body {
