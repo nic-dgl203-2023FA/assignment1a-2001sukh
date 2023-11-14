@@ -163,6 +163,19 @@ ul li a {
   font-size: 20px;
 }
 
+/* Define variables */
+:root {
+  --main-bg-color: #f0f0f0;
+  --main-text-color: #ED5D31;
+  --button-bg-color: #000000;
+  --button-text-color: #ED5D31;
+  --button-hover-bg-color: #484949;
+  --button-hover-text-color: #fafaf8;
+  --svg-img-hover-translateX: 30px;
+  --svg-img-hover-translateX-alt: -40px;
+  --blinking-text-border-color: #000000;
+}
+
 /* Variables */
 /* motion-navbar */
 .motion-navbar {
