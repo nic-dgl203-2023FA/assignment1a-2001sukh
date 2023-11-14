@@ -9,6 +9,9 @@ $projectsBtnHoverBackground: rgba(159, 192, 141, 0.8);
 $projectsBtnPadding: 8px;
 $projectsBtnBorderRadius: 4px;
 
+// Define mobile breakpoint
+$mobileBreakpoint: 768px;
+
 .projects {
     background: $projectsBackgroundColor;
   
@@ -41,6 +44,28 @@ $projectsBtnBorderRadius: 4px;
   
         img {
             margin-right: 16px; 
+        }
+    }
+
+    // Mobile styles
+    @media screen and (max-width: $mobileBreakpoint) {
+        padding: 10px; 
+
+        &__item {
+            flex-direction: column; 
+
+            h3 {
+                margin-bottom: 8px; 
+            }
+
+            img {
+                margin-right: 0; 
+                margin-bottom: 8px; 
+            }
+        }
+
+        .btn {
+            width: 100%; 
         }
     }
 }
