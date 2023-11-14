@@ -30,3 +30,12 @@ h2 {
   max-width: 600px;
   text-align: center;
 }
+
+.button {
+  background: $text-color;
+  color: $accent-color;
+  padding: 16px 24px;
+  text-decoration: none;
+  display: inline-block;
+  border-radius: 20%;
+}

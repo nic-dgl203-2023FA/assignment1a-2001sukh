@@ -405,6 +405,15 @@ h2 {
   text-align: center;
 }
 
+.button {
+  background: #222;
+  color: #93d277;
+  padding: 16px 24px;
+  text-decoration: none;
+  display: inline-block;
+  border-radius: 20%;
+}
+
 /* Global styles 
 -----------------------------*/
 body {
