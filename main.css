@@ -176,6 +176,15 @@ ul li a {
   --blinking-text-border-color: #000000;
 }
 
+/* grid-container */
+.grid-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-gap: 10px;
+  margin: 0 auto;
+  width: 80%;
+}
+
 /* Variables */
 /* motion-navbar */
 .motion-navbar {
