@@ -35,7 +35,20 @@
     }
   }
   
-
+  /* transition-button */
+  .transition-button {
+    background-color: var(--button-bg-color);
+    color: var(--button-text-color);
+    border: none;
+    padding: 10px 20px;
+    transition: background-color 0.3s, color 0.3s, transform 0.3s;
+  
+    &:hover {
+      background-color: var(--button-hover-bg-color);
+      color: var(--button-hover-text-color);
+      transform: scale(1.3);
+    }
+  }
   
 
   
