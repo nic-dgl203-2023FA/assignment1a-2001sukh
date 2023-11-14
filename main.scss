@@ -18,3 +18,11 @@ body {
         width: 300px;
     }
 }
+
+a {
+    color: $link-color;
+
+    &:hover {
+        text-decoration: none;
+    }
+}

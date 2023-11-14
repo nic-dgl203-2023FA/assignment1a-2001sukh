@@ -10,4 +10,11 @@ body {
 }
 body img {
   width: 300px;
+}
+
+a {
+  color: #ED5D31;
+}
+a:hover {
+  text-decoration: none;
 }/*# sourceMappingURL=main.css.map */
