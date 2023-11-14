@@ -15,3 +15,13 @@ $details-font-size: 18px;
 $summary-font-size: 16px;
 $date-font-size: 14px;
 
+.work-experience {
+  background: $background-color;
+
+  &__title {
+    font-size: $title-font-size;
+    font-weight: $title-font-weight;
+    color: $text-color;
+    margin-bottom: 15px;
+  }
+}
