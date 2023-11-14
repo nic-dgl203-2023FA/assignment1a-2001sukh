@@ -427,6 +427,15 @@ h2 {
   opacity: 0;
 }
 
+.modal {
+  background: #fec0aa;
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 0px 4px;
+  margin: 48px auto;
+  max-width: 600px;
+  padding: 24px;
+  position: relative;
+}
+
 /* Global styles 
 -----------------------------*/
 body {

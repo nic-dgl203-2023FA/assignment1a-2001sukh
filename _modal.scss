@@ -52,3 +52,12 @@ h2 {
   visibility: hidden;
   opacity: 0;
 }
+
+.modal {
+  background: $background-color;
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 0px 4px;
+  margin: 48px auto;
+  max-width: 600px;
+  padding: 24px;
+  position: relative;
+}
