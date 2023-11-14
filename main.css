@@ -214,6 +214,30 @@ ul li a {
   transform: scale(1.3);
 }
 
+/* animated-word */
+.animated-word {
+  position: relative;
+  overflow: hidden;
+  align-items: center;
+  color: var(--main-text-color);
+  font-weight: bold;
+}
+.animated-word .word {
+  font-size: 12px;
+  animation: animateWord 3s linear infinite;
+}
+@keyframes animateWord {
+  0% {
+    font-size: 10px;
+  }
+  50% {
+    font-size: 15px;
+  }
+  100% {
+    font-size: 20px;
+  }
+}
+
 /* Variables */
 /* motion-navbar */
 .motion-navbar {
