@@ -80,6 +80,10 @@ header p {
   color: #221e1e;
   margin-bottom: 20px;
 }
+.work-experience .job-item {
+  border-bottom: 1px solid #050202;
+  padding: 20px;
+}
 
 /* Global styles 
 -----------------------------*/
