@@ -4,54 +4,54 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel ="stylesheet" href="style.css">
+    <link rel="stylesheet" href="main.css">
     
     <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Outfit:wght@200&display=swap" rel="stylesheet">
-<link href="https://fonts.googleapis.com/css2?family=Satisfy&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@200&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Satisfy&display=swap" rel="stylesheet">
     <title>Motion</title>
 </head>
 
 <body>
-    <main>
-        <div class="motionnavbar">
-            <ul>
-                <li><a href="index.html">Portfolio</a></li>
-                <li><a href="motion.html">Motion</a> </li>
+    <main class="main">
+        <div class="motion-navbar motion-navbar--main">
+            <ul class="motion-navbar__list">
+                <li class="motion-navbar__item"><a href="index.html" class="motion-navbar__link">Portfolio</a></li>
+                <li class="motion-navbar__item"><a href="motion.html" class="motion-navbar__link">Motion</a></li>
             </ul>
         </div>
-
-
-        <div class="grid-container">
-            <div class="grid-item"><button class="transition-button"> Sukhdeep</button> </div>
-            <div class="grid-item"> <div class="animated-word"> <span class="word">MEGAN</span></div> </div>
-            <div class="grid-item"> <img class="svg-img" src="Images/heart-plain.svg" alt="heart"> </div>
-            <div class="grid-item"><h4 class="blinking-text">Sukhdeep Singh Chahal</h4></div>
-            <div class="grid-item"> <div class="flip-word">SUKH</div></div>
-            <div class="grid-item"> <div class="animated-box"></div></div>
-        </div>
-
-      
+    </main>
     
-     
 
-      <footer>
-        <div class="content-wrap" id="contact">
-        <h2>Let's make an effort to stay in touch!</h2>
-
-        <!-- Social media and contact links. Add or remove any networks. -->
-        <ul class="contact-list">
-          <li><a href="mailto:email@example.com">email@example.com</a></li>
-          <li><a href="http://yourwebsite.com" target="_blank">yourwebsite.com</a></li>
-          <li><a href="#" target="_blank">Twitter</a></li>
-          <li><a href="#" target="_blank">LinkedIn</a></li>
-          <li><a href="#" target="_blank">Facebook</a></li>
-        </ul>
+        <div class="grid-container grid-container--main">
+            <div class="grid-item grid-item--button"><button class="transition-button transition-button--main"> Sukhdeep</button></div>
+            <div class="grid-item grid-item--animated-word">
+                <div class="animated-word animated-word--main">
+                    <span class="word word--main">MEGAN</span>
+                </div>
+            </div>
+            <div class="grid-item grid-item--image"> <img class="svg-img svg-img--main" src="Images/heart-plain.svg" alt="heart"> </div>
+            <div class="grid-item grid-item--text"><h4 class="blinking-text blinking-text--main">Sukhdeep Singh Chahal</h4></div>
+            <div class="grid-item grid-item--flip-word"><div class="flip-word flip-word--main">SUKH</div></div>
+            <div class="grid-item grid-item--animated-box"><div class="animated-box animated-box--main"></div></div>
         </div>
-        </section>
-      </footer>
 
+        <footer class="footer">
+            <div class="content-wrap content-wrap--footer" id="contact">
+                <h2 class="footer__heading">Let's make an effort to stay in touch!</h2>
+
+                <!-- Social media and contact links. Add or remove any networks. -->
+                <ul class="contact-list contact-list--footer">
+                    <li class="contact-list__item"><a href="mailto:email@example.com" class="contact-list__link">email@example.com</a></li>
+                    <li class="contact-list__item"><a href="http://yourwebsite.com" target="_blank" class="contact-list__link">yourwebsite.com</a></li>
+                    <li class="contact-list__item"><a href="#" target="_blank" class="contact-list__link">Twitter</a></li>
+                    <li class="contact-list__item"><a href="#" target="_blank" class="contact-list__link">LinkedIn</a></li>
+                    <li class="contact-list__item"><a href="#" target="_blank" class="contact-list__link">Facebook</a></li>
+                </ul>
+            </div>
+        </footer>
     </main>
 </body>
+
 </html>
