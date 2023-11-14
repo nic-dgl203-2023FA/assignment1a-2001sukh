@@ -61,3 +61,12 @@ h2 {
   padding: 24px;
   position: relative;
 }
+
+.light {
+  background: rgba(11, 11, 11, 0.5);
+}
+
+.overlay:target {
+  visibility: visible;
+  opacity: 1;
+}
