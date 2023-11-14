@@ -39,3 +39,16 @@ h2 {
   display: inline-block;
   border-radius: 20%;
 }
+
+/* Modal styles */
+.overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: $overlay-color;
+  transition: opacity $transition-time;
+  visibility: hidden;
+  opacity: 0;
+}

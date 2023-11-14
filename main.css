@@ -414,6 +414,19 @@ h2 {
   border-radius: 20%;
 }
 
+/* Modal styles */
+.overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: rgba(0, 0, 0, 0.7);
+  transition: opacity 200ms;
+  visibility: hidden;
+  opacity: 0;
+}
+
 /* Global styles 
 -----------------------------*/
 body {
