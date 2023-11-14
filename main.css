@@ -193,6 +193,12 @@ ul li a {
   justify-content: center;
   height: 300px;
 }
+@media screen and (max-width: 768px) {
+  .grid-container {
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(6, 1fr);
+  }
+}
 
 /* Variables */
 /* motion-navbar */
