@@ -2,3 +2,11 @@
 $navbar-background-color: #000000;
 $link-color: #ED5D31;
 $link-hover-color: #add19d;
+
+/* Nav bar */
+.navbar {
+  background-color: $navbar-background-color;
+  overflow: hidden;
+  position: sticky;
+  top: 0;
+}
