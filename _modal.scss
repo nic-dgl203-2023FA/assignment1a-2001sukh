@@ -9,3 +9,19 @@ $transition-time: 200ms;
   margin: 0;
   padding: 0;
 }
+
+/* Base styles */
+body {
+  font-family: 'Outfit', sans-serif;
+  box-sizing: border-box;
+}
+
+h1 {
+  text-align: center;
+  margin: 16px 0;
+}
+
+h2 {
+  margin-bottom: 16px;
+}
+
