@@ -170,6 +170,12 @@ ul li a {
   overflow: hidden;
   height: 50px;
 }
+.motion-navbar__list {
+  display: flex;
+  justify-content: space-between;
+  list-style: none;
+  margin: 0;
+}
 
 /* Global styles 
 -----------------------------*/
