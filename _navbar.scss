@@ -27,6 +27,10 @@ $link-hover-color: #add19d;
         transition: background-color 0.3s;
         font-weight: bold;
         font-size: 25px;
+
+        &:hover {
+          background-color: $link-hover-color;
+        }
       }
     }
   }
