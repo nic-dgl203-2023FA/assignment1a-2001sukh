@@ -19,5 +19,16 @@ $navbar-transition-duration: 0.3s;
         list-style: none;
         margin: 0;
 
+        &__item {
+            a {
+                display: block;
+                color: $navbar-text-color;
+                padding: $navbar-item-padding;
+                text-decoration: none;
+                transition: background-color $navbar-transition-duration;
+                font-weight: $navbar-item-font-weight;
+                font-size: $navbar-item-font-size;
+            }
+        }
     }
 }
