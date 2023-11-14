@@ -26,4 +26,10 @@ h1 {
 
 h2 {
   font-size: 45px;
+}
+
+h1, h2 {
+  font-family: "Satisfy", cursive;
+  font-weight: 400;
+  margin: 0;
 }/*# sourceMappingURL=main.css.map */

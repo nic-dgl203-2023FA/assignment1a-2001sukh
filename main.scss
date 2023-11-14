@@ -35,3 +35,9 @@ h1 {
 h2 {
     font-size: 45px;
 }
+
+h1, h2 {
+    font-family: $font-secondary;
+    font-weight: 400;
+    margin: 0;
+}
