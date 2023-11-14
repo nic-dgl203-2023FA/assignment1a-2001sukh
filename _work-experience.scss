@@ -56,6 +56,28 @@ $date-font-size: 14px;
       }
     }
 
+    &__summary {
+      font-size: $summary-font-size;
+      color: $summary-color;
+      line-height: 1.5;
 
+      &__paragraph {
+        margin-bottom: 15px;
+      }
+
+      &__roles {
+        font-weight: $title-font-weight;
+        margin-bottom: 10px;
+      }
+
+      &__role-list {
+        list-style-type: none;
+        padding: 0;
+
+        &__role {
+          margin-bottom: 5px;
+        }
+      }
+    }
   }
 }
